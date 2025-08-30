@@ -1,0 +1,8 @@
+theme: 
+  name: material
+site_name: Zirui Li (李梓瑞)的个人网页
+nav:
+  - 主页: index.md
+  - 物理: physics.md
+  - 数学: math.md
+  - 关于我: about_me.md
