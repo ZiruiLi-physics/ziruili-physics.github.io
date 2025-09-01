@@ -10,8 +10,8 @@ plugins:
 theme: 
   name: material
   language: zh
-  logo: assets/catmaster_logo.png
-  favicon: assets/catmaster.png
+  logo: assets/catmaster.png
+  favicon: assets/catmaster_favicon.png
   font: 
     text: Microsoft YaHei
     code: JetBrains Mono
