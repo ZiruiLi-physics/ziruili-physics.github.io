@@ -1,75 +1,63 @@
-site_name: Zirui Li (李梓瑞)'s Site
-sit_url: https://ziruili-physics.github.io
+site_name: Zirui Li (李梓瑞)的个人主页
+site_url: https://ziruili-physics.github.io
+site_author: Zirui Li (李梓瑞)
+site_description: Zirui Li (李梓瑞)的个人主页
 
 plugins: 
-  - search
-  - blog
+  - search:
+  - tags
 
 theme: 
   name: material
   language: zh
+  logo: assets/catmaster_logo.png
+  favicon: assets/catmaster.png
+  font: 
+    text: Microsoft YaHei
+    code: JetBrains Mono
   features:
     - navigation.sections
     - header.autohide
-  features:
     - navigation.tabs
     - navigation.path
     - navigation.top
     - search.suggest
-
-
+    - search.highlight
+    - navigation.expand
+    - navigation.indexes
   palette:
     - primary: pink
-    - accent: cyan
-    
-
-    # Palette toggle for automatic mode
-    - media: "(prefers-color-scheme)"
+    - accent: orange
+    - scheme: default
+      primary: indigo
+      accent: orange
       toggle:
-        icon: material/brightness-auto
-        name: Switch to light mode
-
-    # Palette toggle for light mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: default 
+        icon: material/weather-night
+        name: 切换至夜间模式
+    - scheme: slate
+      primary: indigo
+      accent: orange
       toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
-
-    # Palette toggle for dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      toggle:
-        icon: material/brightness-4
-        name: Switch to system preference
+        icon: material/weather-sunny
+        name: 切换至日间模式
+repo_url: https://github.com/ZiruiLi-physics/ziruili-physics.github.io
+repo_name: ziruili-physics.github.io
 
 extra:
-  alternate:
-    - name: 中文
-      link: /zh/
-      lang: zh
-    - name: English
-      link: /en/
-      lang: en
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/ZiruiLi-physics
-
-  analytics: 
-    feedback:
-      title: Was this page helpful?
-      ratings:
-        - icon: material/emoticon-happy-outline
-          name: This page was helpful
-          data: 1
-          note: >-
-            Thanks for your feedback!
-        - icon: material/emoticon-sad-outline
-          name: This page could be improved
-          data: 0
-          note: >- 
-            Thanks for your feedback! Help us improve this page by
-            using our <a href="..." target="_blank" rel="noopener">feedback form</a>.
+      name: GitHub | Catmaster
+    - icon: fontawesome/brands/bilibili
+      link: https://space.bilibili.com/228138236
+      name: BiliBili | 喵喵拳大师兄
+    - icon: fontawesome/brands/weixin
+      link: weixin://profile/lzr18222536039
+      name: 微信 | 喵喵拳大师兄
+    - icon: fontawesome/brands/qq
+      link: http://wpa.qq.com/msgrd?v=3&uin=1330382848&site=qq&menu=yes
+      name: QQ | 喵喵拳大师兄
+  
   consent:
     title: Cookie consent
     description: >- 
@@ -77,13 +65,41 @@ extra:
       as to measure the effectiveness of our documentation and whether users
       find what they're searching for. With your consent, you're helping us to
       make our documentation better
-nav:
-  - 主页: zh/index.md
-  - 物理: zh/physics.md
-  - 数学: zh/math.md
-  - 关于我: zh/about.md
 
-  - Home: en/index.md
-  - Physics: en/physics.md
-  - Math: en/math.md
-  - About me: en/about.md
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+  - attr_list
+  - toc:
+      permalink: true
+  - pymdownx.highlight:
+      linenums: true
+  - pymdownx.superfences
+  - meta
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+
+nav:
+  - 主页: index.md
+  - 北航的资料:
+    - 理科大类-致真书院: buaa/U1.md
+    - 物理学院: buaa/U2.md
+    - 核物理/核科学与技术系: buaa/U3.md
+    - 对北航物理的评价: buaa/bh_phy.md
+    - 我的本科生活: buaa/life.md
+  - 物理:
+    - 个人简历: physics/cv.md
+    - 物理与我: physics/about.md
+    - 想对新物理人说的话: physics/chat.md
+    - 物理note:
+      - PDF: physics/note/pdf.md
+      - Slides: physics/note/slides.md
+  - ACG: 
+    - 什么是“二次元”: acg/what.md
+    - 我本科的二次元生活: acg/my_acg.md
+    - 动画: acg/animation.md
+    - 游戏: acg/game.md
+  - Blog:
+    - Test: blog/index.md
