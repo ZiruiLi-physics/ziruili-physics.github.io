@@ -1,6 +1,6 @@
 # 个人简历
 ## 兴趣
-1. 理论物理: 我的兴趣主要集中在低能物理, 尤其是凝聚态理论中量子多体动力学和非平衡统计物理, 此外也涉及一些高能理论和凝聚态物理的数值模拟.
+1. **理论物理**: 我的兴趣主要集中在低能物理, 尤其是凝聚态理论中量子多体动力学和非平衡统计物理, 此外也涉及一些高能理论和凝聚态物理的数值模拟.
     1. 凝聚态理论: <br>Open Quantum Many-Body System, <br>Non-Hermitian Quantum theory, <br>Many-Body Localization, <br>Time Crystal, <br>Tensor Network, <br>SYK model, ...
     2. 高能理论和引力理论: <br>Lattice QCD, <br>SYK model, <br>AdS/CMT, <br>Black Hole Chemistry, ...
     3. 其他: <br>Quantum Fundamental Theory, <br>Quantum Information for Quantum Many-Body Dynamics and Non-equilibrium Statistical Physics, <br>Classical Mesoscopic Physics, ...
@@ -17,14 +17,15 @@
 5. 2026-2031(预计) 直博: <br>上海交通大学 > 物理与天文学院 > Wilczek Quantum Center (理论物理)<br>
 导师: Matteo Baggioli &nbsp;&nbsp;课题组主页: [https://theorylab-sjtu.com/](https://theorylab-sjtu.com/)
 
-
 ## 工作经历
 1. 2025.3-2025.6: 《理科数学分析进阶》助教
+2. 2025.7-2025.8: 中国锦屏地下实验室 > JUNA项目组
 
 ## 奖励与荣誉
 1. 中学生物理学科竞赛省级二等奖
 2. 大学生数学建模竞赛北京市二等奖
 3. 大学生创新创业训练计划项目(市级): 二维非线性偏微分方程的对称性和守恒律(参与) > 优秀结题
+4. 北京航空航天大学美育中心《如愿》展演参演证书
 
 ## 代表论文
 
