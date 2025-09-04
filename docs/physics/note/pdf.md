@@ -14,6 +14,7 @@
 [凝聚态场论1-基础概念 Basic Conceptions](downloads/basic_conceptions.pdf)
 
 ## 串讲/复习
+[致真答疑团-2023级理科高等代数期中串讲](downloads/高代串讲题（部分）.pdf)<br>
 [2022级量子力学期中串讲](downloads/量子期中串讲.pdf)<br>
 [2022级量子力学期末串讲](downloads/QM.pdf)<br>
 [2022级电动力学期末复习](downloads/ElecDyna.pdf)<br>

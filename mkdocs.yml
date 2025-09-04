@@ -27,7 +27,7 @@ theme:
     - navigation.indexes
   palette:
     - primary: pink
-    - accent: orange
+    - accent: indigo
     - scheme: default
       primary: indigo
       accent: orange
@@ -51,12 +51,6 @@ extra:
     - icon: fontawesome/brands/bilibili
       link: https://space.bilibili.com/228138236
       name: BiliBili | 喵喵拳大师兄
-    - icon: fontawesome/brands/weixin
-      link: weixin://profile/lzr18222536039
-      name: 微信 | 喵喵拳大师兄
-    - icon: fontawesome/brands/qq
-      link: http://wpa.qq.com/msgrd?v=3&uin=1330382848&site=qq&menu=yes
-      name: QQ | 喵喵拳大师兄
   
   consent:
     title: Cookie consent
@@ -96,9 +90,10 @@ nav:
     - 物理note:
       - PDF: physics/note/pdf.md
       - Slides: physics/note/slides.md
+      - Code: physics/note/code.md
   - ACG: 
     - 什么是“二次元”: acg/what.md
-    - 我本科的二次元生活: acg/my_acg.md
+    - 我的二次元生活: acg/my_acg.md
     - 动画: acg/animation.md
     - 游戏: acg/game.md
   - Blog:
