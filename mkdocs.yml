@@ -71,6 +71,12 @@ markdown_extensions:
   - pymdownx.superfences
   - meta
   - pymdownx.tilde
+  - admonition
+  - tables
+  - footnotes
+  - def_list
+  - pymdownx.emoji
+  - pymdownx.tasklist
 
 extra_javascript:
   - javascripts/mathjax.js
