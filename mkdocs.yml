@@ -81,7 +81,6 @@ markdown_extensions:
   - pymdownx.mark
   - pymdownx.inlinehilite
   - pymdownx.snippets
-  - mdx_truly_sane_lists
 
 extra_javascript:
   - javascripts/mathjax.js
