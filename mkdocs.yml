@@ -77,6 +77,11 @@ markdown_extensions:
   - def_list
   - pymdownx.emoji
   - pymdownx.tasklist
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - mdx_truly_sane_lists
 
 extra_javascript:
   - javascripts/mathjax.js
