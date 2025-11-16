@@ -4,7 +4,7 @@ site_author: Zirui Li (李梓瑞)
 site_description: Zirui Li (李梓瑞)的个人主页
 
 plugins: 
-  - search:
+  - search
   - tags
 
 theme: 
@@ -81,20 +81,19 @@ nav:
     - 理科大类-致真书院: buaa/U1.md
     - 物理学院: buaa/U2.md
     - 核物理/核科学与技术系: buaa/U3.md
-    - 对北航物理的评价: buaa/bh_phy.md
-    - 我的本科生活: buaa/life.md
+    # - 对北航物理的评价: buaa/bh_phy.md
+    # - 我的本科生活: buaa/life.md
   - 物理:
     - 个人简历: physics/cv.md
-    - 物理与我: physics/about.md
-    - 想对新物理人说的话: physics/chat.md
+    # - 物理与我: physics/about.md
+    # - 想对新物理人说的话: physics/chat.md
     - 物理note:
       - PDF: physics/note/pdf.md
       - Slides: physics/note/slides.md
       - Code: physics/note/code.md
   - ACG: 
-    - 什么是“二次元”: acg/what.md
-    - 我的二次元生活: acg/my_acg.md
+    # - 我的二次元生活: acg/my_acg.md
     - 动画: acg/animation.md
     - 游戏: acg/game.md
-  - Blog:
-    - Test: blog/index.md
+  # - Blog:
+  #   - Test: blog/index.md

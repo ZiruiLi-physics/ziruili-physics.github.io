@@ -1,13 +1,16 @@
 # 个人简历
 ## 兴趣
-1. **理论物理**: 我的兴趣主要集中在低能物理, 尤其是凝聚态理论中量子多体动力学和非平衡统计物理, 此外也涉及一些高能理论和凝聚态物理的数值模拟.
+1. **理论物理**: 我的兴趣主要集中在低能物理, 尤其是凝聚态理论和统计物理. 此外我也涉及一些高能理论和凝聚态物理的数值模拟.
     1. 凝聚态理论: <br>Open Quantum Many-Body System, <br>Non-Hermitian Quantum theory, <br>Many-Body Localization, <br>Time Crystal, <br>Tensor Network, <br>SYK model, ...
     2. 高能理论和引力理论: <br>Lattice QCD, <br>SYK model, <br>AdS/CMT, <br>Black Hole Chemistry, ...
     3. 其他: <br>Quantum Fundamental Theory, <br>Quantum Information for Quantum Many-Body Dynamics and Non-equilibrium Statistical Physics, <br>Classical Mesoscopic Physics, ...
+    4. **Now I'm working on:** 
+    <br>Mainly: Topological Defects in Disorder Systems (Glasses)
+    <br>Others: Quantum Chaos (such as SYK model), Non-equilibrium Quantum Many-Body Dynamics (Spin Systems)...
 2. 计算机: Neural Network, Cellular Automaton
-3. 小提琴 > ACG曲目
-4. 二次元 > 动画与动画理论
-5. 运动: 慢跑, 羽毛球
+3. 二次元 > 动画与动画理论
+4. 运动: 慢跑, 羽毛球
+5. 小提琴 > ACG曲目
 
 ## 教育背景
 1. 2010-2016 小学: <br>天津师范大学第二附属小学
@@ -37,3 +40,6 @@
 ## 个人主页
 [Zirui Li (李梓瑞)的个人主页](https://ziruili-physics.github.io)<br>
 [GitHub | Catmaster](https://github.com/ZiruiLi-physics)
+
+## 联系方式
+邮箱: ziruili6039@qq.com
