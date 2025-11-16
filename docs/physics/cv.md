@@ -1,6 +1,6 @@
 # 个人简历
 ## 兴趣
-1. **理论物理**: 我的兴趣主要集中在低能物理理论, 尤其是凝聚态理论和统计物理. 此外我也涉及一些高能理论和凝聚态物理的数值模拟.
+1. **理论物理**: 我的兴趣主要集中在低能物理理论, 尤其是凝聚态理论和统计物理. 此外我也涉及一些高能理论和凝聚态物理的数值模拟.~~test~~<!-- comment -->
     1. 凝聚态理论: <br>Open Quantum Many-Body System, <br>Non-Hermitian Quantum theory, <br>Many-Body Localization, <br>Time Crystal, <br>Tensor Network, <br>SYK model, ...
     2. 高能理论和引力理论: <br>Lattice QCD, <br>SYK model, <br>AdS/CMT, <br>Black Hole Chemistry, ...
     3. 其他: <br>Quantum Fundamental Theory, <br>Quantum Information for Quantum Many-Body Dynamics and Non-equilibrium Statistical Physics, <br>Classical Mesoscopic Physics, ...
@@ -44,4 +44,3 @@
 ## 联系方式
 邮箱: ziruili6039@qq.com
 
-~~test~~<!-- comment -->
