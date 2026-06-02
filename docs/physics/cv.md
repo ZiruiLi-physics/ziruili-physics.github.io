@@ -1,24 +1,20 @@
 # 个人简历
 ## 兴趣
-1. **理论物理**: 我的兴趣主要集中在低能物理理论, 尤其是凝聚态理论和统计物理. 此外我也涉及一些高能理论和凝聚态物理的数值模拟.
-    1. 凝聚态理论: <br>Open Quantum Many-Body System, <br>Non-Hermitian Quantum theory, <br>Many-Body Localization, <br>Time Crystal, <br>Tensor Network, <br>SYK model, ...
-    2. 高能理论和引力理论: <br>Lattice QCD, <br>SYK model, <br>AdS/CMT, <br>Black Hole Chemistry, ...
-    3. 其他: <br>Quantum Fundamental Theory, <br>Quantum Information for Quantum Many-Body Dynamics and Non-equilibrium Statistical Physics, <br>Classical Mesoscopic Physics, ...
+1. **理论物理**: 我的兴趣主要集中在凝聚态和统计物理, 主要从事理论和数值计算. 此外我也涉猎过一些高能物理的计算和理论.
+    1. 凝聚态与统计物理理论: <br>Open Quantum Many-Body Systems, <br>Localization and Thermalization (MBL, ETH, Time Crystal), <br>Disordered Solids (Granular and glassy systems), <br>Floquet systems, <br>Tensor Network, ...
+    2. 高能理论和引力理论: <br>Lattice QCD, <br>Quantum Chaos (SYK model, Black Holes), ...
+    3. 其他: <br>Fundamental Theory of Quantum Mechanics, ...
     4. **Now I'm working on:** 
-    <br>Mainly: Topological Defects in Disorder Systems (Glasses)
-    <br>Others: Quantum Chaos (such as SYK model), Non-equilibrium Quantum Many-Body Dynamics...
-2. 计算机: Neural Network, Cellular Automaton
-3. 二次元 > 动画与动画理论
-4. 运动: 慢跑, 羽毛球
-5. 小提琴 > ACG曲目
+    <br>Mainly: Geometry and topological defects in amorphous solids
+    <br>Others: Non-equilibrium quantum many-body dynamics, Classical stochastic thermodynamics in disordered solids, ...
+2. 计算机: Cellular Automaton, Neural Network
+3. 二次元 > 动画, Vocaloid, Vtuber
 
 ## 教育背景
-1. 2010-2016 小学: <br>天津师范大学第二附属小学
-2. 2016-2019 初中: <br>天津市培杰中学(原天津市第四十二中学私立分校)
-3. 2019-2022 高中: <br>天津市新华中学
-4. 2022-2026(预计) 本科: <br>北京航空航天大学 > 理科大类-致真书院 > 物理学院 > 核科学与技术系
-5. 2026-2031(预计) 直博: <br>上海交通大学 > 物理与天文学院 > Wilczek Quantum Center (理论物理)<br>
-导师: Matteo Baggioli &nbsp;&nbsp;课题组主页: [https://theorylab-sjtu.com/](https://theorylab-sjtu.com/)
+1. 2019-2022 高中: <br>天津市新华中学
+2. 2022-2026 本科: <br>北京航空航天大学 > 理科大类-致真书院 > 物理学院 > 核科学与技术系 
+毕业论文: Effects of monopole screening in disordered solids [中文版](note/downloads/本科毕业论文（中文）主体.pdf) [英文版](note/downloads/本科毕业论文（英文）主体.pdf)
+3. 2026-2031(预计) 直博: <br>上海交通大学 > 物理与天文学院 & Wilczek Quantum Center (理论物理)
 
 ## 工作经历
 1. 2025.3-2025.6: 北航《理科数学分析进阶》助教
@@ -35,10 +31,10 @@
 ## 其他
 1. 2024.10-now: **北航物理评论特刊**组织者
 2. [Informal School on QCD and Heavy Flavor Physics](https://indico-tdli.sjtu.edu.cn/event/4091/)
-<!-- 3. 2025.9-2026.6(预计): 北航飞梦ACG联萌 > 飞梦动画同好会(部长) -->
 
 ## 个人主页
 [Zirui Li (李梓瑞)的个人主页](https://ziruili-physics.github.io)<br>
+[BiliBili | 喵喵拳大师兄](https://space.bilibili.com/228138236)<br>
 [GitHub | Catmaster](https://github.com/ZiruiLi-physics)
 
 ## 联系方式

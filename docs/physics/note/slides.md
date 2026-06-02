@@ -6,7 +6,8 @@
 
 ## 本科组会
 [多体局域化-基础 MBL](downloads/MBL_ETH_1.pdf)<br>
-[开放量子多体系统的数值模拟方法 Simulation Methods for OQMS](downloads/OQMS.pdf)
+[开放量子多体系统的数值模拟方法 Simulation Methods for OQMS](downloads/OQMS.pdf)<br>
+[离散时间晶体 Quantum and classical discrete time crystals](downloads/DTC.pdf)
 
 ## 串讲/复习
 [致真答疑团-2023级理科高等代数期中串讲](downloads/理科高代1期中串讲.pptx)<br>

@@ -92,7 +92,6 @@ nav:
     - 理科大类-致真书院: buaa/U1.md
     - 物理学院: buaa/U2.md
     - 核物理/核科学与技术系: buaa/U3.md
-    # - 对北航物理的评价: buaa/bh_phy.md
     # - 我的本科生活: buaa/life.md
   - 物理:
     - 个人简历: physics/cv.md
@@ -103,7 +102,7 @@ nav:
       - Slides: physics/note/slides.md
       - Code: physics/note/code.md
   - ACG: 
-    # - 我的二次元生活: acg/my_acg.md
+    # - 二次元之罪: acg/my_acg.md
     - 动画: acg/animation.md
     - 游戏: acg/game.md
   # - Blog:
