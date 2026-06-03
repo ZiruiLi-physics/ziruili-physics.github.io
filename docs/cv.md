@@ -13,7 +13,7 @@
 ## 教育背景
 1. 2019-2022 高中: <br>天津市新华中学
 2. 2022-2026 本科: <br>北京航空航天大学 > 理科大类-致真书院 > 物理学院 > 核科学与技术系 
-毕业论文: Effects of monopole screening in disordered solids [中文版](note/downloads/本科毕业论文（中文）主体.pdf) [英文版](note/downloads/本科毕业论文（英文）主体.pdf)
+毕业论文: Effects of monopole screening in disordered solids [中文版](physics/note/downloads/本科毕业论文（中文）主体.pdf) [英文版](physics/note/downloads/本科毕业论文（英文）主体.pdf)
 3. 2026-2031(预计) 直博: <br>上海交通大学 > 物理与天文学院 & Wilczek Quantum Center (理论物理)
 
 ## 工作经历

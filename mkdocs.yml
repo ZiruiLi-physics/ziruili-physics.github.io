@@ -6,6 +6,16 @@ site_description: Zirui Li (李梓瑞)的个人主页
 plugins: 
   - search
   - tags
+  - i18n:
+      default_language: zh
+      languages:
+        - locale: zh
+          name: 中文
+          build: true
+          default: true
+        - locale: en
+          name: English
+          build: true
 
 theme: 
   name: material
@@ -88,22 +98,23 @@ extra_javascript:
 
 nav:
   - 主页: index.md
-  - 北航的资料:
-    - 理科大类-致真书院: buaa/U1.md
-    - 物理学院: buaa/U2.md
-    - 核物理/核科学与技术系: buaa/U3.md
-    # - 我的本科生活: buaa/life.md
-  - 物理:
-    - 个人简历: physics/cv.md
-    # - 物理与我: physics/about.md
-    # - 想对新物理人说的话: physics/chat.md
-    - 物理note:
-      - PDF: physics/note/pdf.md
-      - Slides: physics/note/slides.md
-      - Code: physics/note/code.md
-  - ACG: 
-    # - 二次元之罪: acg/my_acg.md
-    - 动画: acg/animation.md
-    - 游戏: acg/game.md
-  # - Blog:
-  #   - Test: blog/index.md
+  - 关于:
+      - 个人简历: cv.md
+      - 物理与我: about.md
+      - 想对新物理人说的话: chat.md
+  - 研究:
+      - 研究兴趣: research.md
+  - 笔记与教学:
+      - 物理笔记:
+          - PDF: physics/note/pdf.md
+          - Slides: physics/note/slides.md
+          - Code: physics/note/code.md
+      - BUAA课程资料:
+          - 大一 | 致真书院: buaa/U1.md
+          - 大二 | 物理学院: buaa/U2.md
+          - 大三 | 核物理: buaa/U3.md
+          - 大四 | 核物理: buaa/U4.md
+  - 博客: blog/index.md
+  - ACG:
+      - 动画: acg/animation.md
+      - 游戏: acg/game.md
