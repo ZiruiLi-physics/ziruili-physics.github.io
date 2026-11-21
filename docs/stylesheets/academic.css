@@ -1,0 +1,174 @@
+/* ==========================================================================
+   academic.css — 学术页专属：研究、笔记、代码、简历、归档
+   ========================================================================== */
+
+/* 笔记与代码总览 */
+.zl-cards--catalog {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.zl-section-note {
+  font-size: 0.72rem;
+  color: var(--zl-muted);
+  margin-top: -0.2rem;
+}
+
+/* 笔记表格里的格式标签 */
+.zl-format {
+  display: inline-block;
+  min-width: 3.4rem;
+  padding: 0.1rem 0.4rem;
+  border: 1px solid var(--zl-line);
+  border-radius: 4px;
+  font-family: var(--zl-mono);
+  font-size: 0.6rem;
+  letter-spacing: 0.04em;
+  color: var(--zl-muted);
+  text-align: center;
+}
+
+/* 笔记页的表格列宽 */
+body[data-zl="academic"] .md-typeset table th:first-child,
+body[data-zl="academic"] .md-typeset table td:first-child {
+  width: 34%;
+}
+
+/* 代码页 */
+.zl-code-card {
+  border: 1px solid var(--zl-line);
+  border-radius: var(--zl-radius);
+  background: var(--zl-card);
+  padding: 1.3rem 1.45rem;
+  margin: 1.4rem 0 2rem;
+}
+
+.zl-code-card h3 {
+  margin-top: 0 !important;
+  font-size: 1.1rem;
+}
+
+.zl-code-meta {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 0.35rem 1rem;
+  margin: 0.8rem 0 1rem;
+  font-size: 0.74rem;
+}
+
+.zl-code-meta dt {
+  color: var(--zl-muted);
+  font-weight: 600;
+}
+
+.zl-code-meta dd {
+  margin: 0;
+  color: var(--zl-ink-soft);
+}
+
+.zl-code-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin-top: 0.8rem;
+}
+
+.zl-code-actions .zl-btn {
+  padding: 0.45rem 0.9rem;
+  font-size: 0.7rem;
+}
+
+/* 研究页 */
+.zl-research-lede {
+  max-width: 44rem;
+}
+
+.zl-now {
+  border-left: 3px solid var(--zl-cobalt);
+  background: color-mix(in srgb, var(--zl-cobalt) 5%, transparent);
+  border-radius: 0 10px 10px 0;
+  padding: 0.9rem 1.2rem;
+  margin: 1.4rem 0 2rem;
+  font-size: 0.8rem;
+}
+
+.zl-now strong {
+  color: var(--zl-ink);
+}
+
+/* 关于页联系区 */
+.zl-contact {
+  display: grid;
+  gap: 0.55rem;
+  margin: 1.2rem 0 2rem;
+  padding: 1.2rem 1.35rem;
+  border: 1px solid var(--zl-line);
+  border-radius: var(--zl-radius);
+  background: var(--zl-card);
+  font-size: 0.8rem;
+}
+
+.zl-contact p {
+  margin: 0;
+}
+
+.zl-contact__label {
+  display: inline-block;
+  min-width: 4.2rem;
+  color: var(--zl-muted);
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+/* 简历的分节列表更紧凑 */
+body[data-zl="academic"] .md-typeset ul,
+body[data-zl="academic"] .md-typeset ol {
+  padding-left: 1.15rem;
+}
+
+body[data-zl="academic"] .md-typeset li > ul,
+body[data-zl="academic"] .md-typeset li > ol {
+  margin-top: 0.25rem;
+}
+
+/* 归档页提示 */
+.zl-archive-banner {
+  border: 1px solid var(--zl-line);
+  border-left: 3px solid var(--zl-vermilion);
+  border-radius: 0 var(--zl-radius-sm) var(--zl-radius-sm) 0;
+  background: color-mix(in srgb, var(--zl-vermilion) 4%, transparent);
+  padding: 0.85rem 1.1rem;
+  margin: 1.2rem 0 1.8rem;
+  font-size: 0.76rem;
+  color: var(--zl-ink-soft);
+}
+
+/* 课程列表 */
+.zl-course-list {
+  columns: 2;
+  column-gap: 2rem;
+  font-size: 0.78rem;
+}
+
+.zl-course-list li {
+  break-inside: avoid;
+}
+
+@media screen and (max-width: 44.9375em) {
+  .zl-cards--catalog {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .zl-course-list {
+    columns: 1;
+  }
+
+  .zl-code-meta {
+    grid-template-columns: 1fr;
+    gap: 0.15rem;
+  }
+
+  .zl-code-meta dd {
+    margin-bottom: 0.45rem;
+  }
+}

@@ -1,22 +1,37 @@
-# Research Interests
+---
+description: Statistical physics and numerical methods for disordered solids and nonequilibrium quantum many-body systems.
+hide:
+  - navigation
+---
 
-## Primary Active Research
+# Research
 
-- **Geometry and topological defects in amorphous solids** — using geometric and topological methods to understand plasticity, elasticity, and structural properties of disordered solids and glasses
-- **Non-equilibrium quantum many-body dynamics** — dynamics of quantum systems driven out of equilibrium, relaxation and thermalization phenomena
-- **Classical stochastic thermodynamics in disordered solids** — stochastic dynamics, memory effects, and energy landscapes in amorphous and glassy systems
+{{RESEARCH_UMBRELLA}}
 
-## Additional Topics
+## Current work
 
-- Many-body localization (MBL) and eigenstate thermalization hypothesis (ETH)
-- Floquet systems and discrete time crystals
-- Tensor network methods (DMRG, exact diagonalization)
-- Open quantum many-body systems and Lindblad dynamics
-- Statistical physics of nonequilibrium systems
+- Geometric defects and elastic response in amorphous solids
+- Cleaning up DMRG, exact-diagonalization and open-system code
 
-## Broader Interests
+## Research themes
 
-- Quantum chaos (SYK model, black hole information)
-- Fundamental theory of quantum mechanics
-- Lattice QCD
-- Cellular automaton and neural networks
+{{RESEARCH_THEMES}}
+
+## Undergraduate thesis { #undergraduate-thesis }
+
+My undergraduate thesis studied monopole screening in disordered solids.
+
+- [Chinese version](/notes/downloads/本科毕业论文（中文）主体.pdf)
+- [English version](/notes/downloads/本科毕业论文（英文）主体.pdf)
+
+## Talks and slides
+
+- [Landau theory of second-order phase transitions](/notes/downloads/landau相变理论-李梓瑞.pdf)
+- [Lee–Yang phase transition](/notes/downloads/yang-lee.pdf)
+- [Basics of many-body localization](/notes/downloads/MBL_ETH_1.pdf)
+- [Numerical methods for open quantum many-body systems](/notes/downloads/OQMS.pdf)
+- [Discrete time crystals](/notes/downloads/DTC.pdf)
+
+More material is on the [slides](notes/slides.md) page.
+
+{{PUBLICATIONS}}

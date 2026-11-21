@@ -1,0 +1,18 @@
+# 首页"最近更新"（页面会自动读取这个文件）
+#
+# url 可以留空。以 / 开头的站内页面链接会在英文站加上 /en，下载文件链接两站共用。
+
+- date: 2026-10
+  zh: 网站重构
+  en: Site rebuild
+  url: /notes/
+
+- date: 2026-06
+  zh: 本科毕业论文《Effects of monopole screening in disordered solids》
+  en: Undergraduate thesis — Effects of monopole screening in disordered solids
+  url: /research/
+
+- date: 2025-06
+  zh: 北航《理科数学分析进阶》助教
+  en: Teaching assistant, Advanced Mathematical Analysis, Beihang University
+  url: /cv/

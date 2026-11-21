@@ -1,0 +1,114 @@
+# 研究方向与主题（页面会自动读取这个文件）
+#
+# 修改方式：
+#   1. 增删 themes 里的条目后，研究页会自动更新；
+#   2. status 可选 active（主要关注）/ ongoing（进行中）/ interest（感兴趣）；
+#   3. zh / en 都必须有 title，blurb 可以留空；
+#   4. tags 是自由标签，用来在卡片上做小标记。
+#
+umbrella:
+  zh: 我用统计物理和数值方法研究无序固体与非平衡量子多体系统。
+  en: I use statistical physics and numerical methods to study disordered solids and nonequilibrium quantum many-body systems.
+
+intro:
+  zh: 主题列表会随项目调整。
+  en: The list changes as projects develop.
+
+themes:
+  - id: amorphous
+    status: active
+    tags: [无序固体, 拓扑缺陷]
+    zh:
+      title: 非晶固体中的几何与拓扑缺陷
+      blurb: >-
+        无序固体的弹性、塑性与结构；缺陷和拓扑如何影响宏观响应。
+    en:
+      title: Geometry and topological defects in amorphous solids
+      blurb: >-
+        Elasticity, plasticity and structure of disordered solids; how defects and topology
+        affect macroscopic response.
+
+  - id: non-eq-qmb
+    status: active
+    tags: [非平衡, 量子多体]
+    zh:
+      title: 非平衡量子多体动力学
+      blurb: >-
+        驱动量子多体系统的弛豫与热化。
+    en:
+      title: Non-equilibrium quantum many-body dynamics
+      blurb: >-
+        Relaxation and thermalization in driven quantum many-body systems.
+
+  - id: stochastic-thermo
+    status: ongoing
+    tags: [随机热力学, 玻璃]
+    zh:
+      title: 无序体系中的经典随机热力学
+      blurb: >-
+        玻璃和颗粒体系中的随机动力学、记忆效应与能量景观。
+    en:
+      title: Classical stochastic thermodynamics in disordered systems
+      blurb: >-
+        Stochastic dynamics, memory effects and energy landscapes in glasses and granular
+        systems.
+
+  - id: thermalization
+    status: interest
+    tags: [MBL, ETH, Floquet]
+    zh:
+      title: 量子热化、局域化与周期驱动
+      blurb: >-
+        多体局域化、本征态热化、Floquet 系统与时间晶体。
+    en:
+      title: Thermalization, localization and Floquet systems
+      blurb: >-
+        Many-body localization, eigenstate thermalization, Floquet systems and time crystals.
+
+  - id: tensor-network
+    status: ongoing
+    tags: [DMRG, 数值方法]
+    zh:
+      title: 张量网络与数值方法
+      blurb: >-
+        DMRG、精确对角化与开放量子系统的数值方法。
+    en:
+      title: Tensor networks and numerical methods
+      blurb: >-
+        DMRG, exact diagonalization and numerical methods for open quantum systems.
+
+  - id: quantum-chaos
+    status: interest
+    tags: [SYK, 量子引力]
+    zh:
+      title: 量子混沌与高能理论
+      blurb: >-
+        SYK 模型、黑洞信息与量子引力的可解模型。
+    en:
+      title: Quantum chaos and high-energy theory
+      blurb: >-
+        The SYK model, black-hole information and solvable models of quantum gravity.
+
+  - id: complex-systems
+    status: interest
+    tags: [元胞自动机, 神经网络]
+    zh:
+      title: 复杂系统、元胞自动机与神经网络
+      blurb: >-
+        元胞自动机、神经网络与统计物理。
+    en:
+      title: Complex systems, cellular automata and neural networks
+      blurb: >-
+        Cellular automata, neural networks and statistical physics.
+
+  - id: lattice-qcd
+    status: interest
+    tags: [格点 QCD, 核物理]
+    zh:
+      title: 格点 QCD 与核物理
+      blurb: >-
+        格点 QCD 与核物理中的有效描述。
+    en:
+      title: Lattice QCD and nuclear physics
+      blurb: >-
+        Lattice QCD and effective descriptions in nuclear physics.

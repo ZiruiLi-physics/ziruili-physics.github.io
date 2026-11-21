@@ -1,0 +1,24 @@
+# 论文、预印本与报告（页面会自动读取这个文件）
+#
+# papers 里的一篇论文示例：
+#   - year: 2026
+#     title_zh: 标题
+#     title_en: Title
+#     authors: A. Author, Z. Li
+#     venue_zh: 期刊/预印本
+#     venue_en: Journal / arXiv
+#     url: https://arxiv.org/abs/xxxx.xxxxx
+#
+# talks 里的一个报告示例：
+#   - date: 2026-06
+#     title_zh: 报告标题
+#     title_en: Talk title
+#     venue_zh: 会议/组会
+#     venue_en: Conference / group meeting
+#     url: /notes/downloads/xxx.pdf
+#
+# 单个列表为空时，页面省略对应栏目。
+
+papers: []
+
+talks: []

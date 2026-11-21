@@ -1,0 +1,170 @@
+﻿/* ==========================================================================
+   home.css — 首页 Hero 与首页专属排版
+   ========================================================================== */
+
+body[data-zl="home"] .md-typeset > h1:first-child {
+  display: none; /* 首页用 hero 代替标题 */
+}
+
+.zl-hero {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  margin: 0.6rem 0 3.2rem;
+  padding: clamp(2.2rem, 6vw, 4.6rem) clamp(1.4rem, 4vw, 3.4rem);
+  border: 1px solid var(--zl-line);
+  border-radius: 26px;
+  background:
+    radial-gradient(900px 420px at 8% -12%, rgba(43, 63, 158, 0.16), transparent 62%),
+    radial-gradient(760px 380px at 102% 4%, rgba(200, 64, 42, 0.13), transparent 58%),
+    var(--zl-paper-2);
+}
+
+body[data-zl="home"] .zl-hero {
+  margin-bottom: 1.6rem;
+  padding: clamp(1.3rem, 3.5vw, 2.4rem) clamp(1rem, 4vw, 3rem);
+}
+
+.zl-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background-image:
+    linear-gradient(to right, var(--zl-line) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--zl-line) 1px, transparent 1px);
+  background-size: 44px 44px;
+  opacity: 0.28;
+  mask-image: radial-gradient(ellipse at 30% 20%, #000 10%, transparent 72%);
+  -webkit-mask-image: radial-gradient(ellipse at 30% 20%, #000 10%, transparent 72%);
+}
+
+.zl-hero__glow {
+  position: absolute;
+  z-index: -1;
+  width: 46rem;
+  height: 46rem;
+  right: -18rem;
+  bottom: -30rem;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(43, 63, 158, 0.22), transparent 62%);
+  filter: blur(10px);
+  animation: zl-drift 22s ease-in-out infinite alternate;
+}
+
+@keyframes zl-drift {
+  from {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  to {
+    transform: translate3d(-5rem, -3rem, 0) scale(1.12);
+  }
+}
+
+.md-typeset .zl-hero__eyebrow {
+  position: relative;
+  z-index: 1;
+  font-size: 0.66rem;
+  font-weight: 600;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--zl-muted);
+  margin: 0 0 1.1rem;
+}
+
+.md-typeset .zl-hero__title {
+  position: relative;
+  z-index: 1;
+  margin: 0;
+  font-family: var(--zl-serif);
+  font-size: clamp(2.9rem, 9vw, 6.2rem);
+  font-weight: 600;
+  line-height: 0.98;
+  letter-spacing: -0.035em;
+  color: var(--zl-ink);
+}
+
+.md-typeset .zl-hero__title span {
+  display: block;
+  margin-top: 0.75rem;
+  font-family: var(--zl-sans);
+  font-size: clamp(0.68rem, 1.4vw, 0.82rem);
+  font-weight: 600;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  color: var(--zl-muted);
+}
+
+body[data-zl="home"] .zl-hero__title {
+  font-size: clamp(2.55rem, 8.5vw, 4.5rem);
+}
+
+.md-typeset .zl-hero__role {
+  position: relative;
+  z-index: 1;
+  margin: 1rem 0 0.4rem;
+  font-size: 0.86rem;
+  font-weight: 600;
+  color: var(--zl-ink);
+}
+
+body[data-zl="home"] .zl-actions {
+  gap: 0.5rem;
+  margin-top: 1.25rem;
+}
+
+body[data-zl="home"] .zl-actions .zl-btn {
+  padding-inline: clamp(0.7rem, 2.35vw, 1.2rem);
+}
+
+.md-typeset .zl-hero__lead {
+  position: relative;
+  z-index: 1;
+  max-width: 36rem;
+  margin: 0.35rem 0 0;
+  font-family: var(--zl-serif);
+  font-size: clamp(1rem, 2vw, 1.22rem);
+  line-height: 1.65;
+  color: var(--zl-ink-soft);
+}
+
+/* 首页正文段落 */
+body[data-zl="home"] .md-typeset > p {
+  max-width: 40rem;
+}
+
+body[data-zl="home"] .md-typeset > h2 {
+  margin-top: 3.8rem;
+}
+
+body[data-zl="home"] .md-typeset > h2:first-of-type {
+  margin-top: 1.7rem;
+}
+
+/* 首页精选卡片 */
+body[data-zl="home"] .zl-card {
+  gap: 0.35rem;
+  padding: 0.95rem 1.1rem;
+}
+
+body[data-zl="home"] .zl-card__title {
+  font-size: 1.1rem;
+}
+
+@media screen and (max-width: 44.9375em) {
+  .zl-hero {
+    border-radius: 18px;
+    padding: 2.2rem 1.4rem 2.6rem;
+  }
+
+  .zl-hero__title {
+    font-size: clamp(2.5rem, 14vw, 3.8rem);
+  }
+
+  .zl-hero__glow {
+    width: 28rem;
+    height: 28rem;
+    right: -12rem;
+    bottom: -18rem;
+  }
+}

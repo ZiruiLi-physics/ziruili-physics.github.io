@@ -1,0 +1,215 @@
+/* 生活区沿用深色，以薄荷绿和粉色标出入口。 */
+body[data-zl="life"] {
+  min-height: 100vh;
+  color-scheme: dark;
+  --zl-paper: #0a0b15;
+  --zl-paper-2: #141626;
+  --zl-ink: #f6f4ff;
+  --zl-ink-soft: #dedbed;
+  --zl-muted: #adaac4;
+  --zl-line: rgba(230, 225, 255, 0.16);
+  --zl-line-strong: rgba(230, 225, 255, 0.32);
+  --zl-cobalt: #9cebda;
+  --zl-vermilion: #ffadce;
+
+  --md-default-bg-color: var(--zl-paper);
+  --md-default-fg-color: var(--zl-ink);
+  --md-default-fg-color--light: var(--zl-ink-soft);
+  --md-default-fg-color--lighter: var(--zl-muted);
+  --md-primary-fg-color: var(--zl-cobalt);
+  --md-accent-fg-color: var(--zl-vermilion);
+  --md-typeset-a-color: var(--zl-cobalt);
+
+  background:
+    radial-gradient(ellipse at 90% 0%, #211833 0%, transparent 52rem),
+    var(--zl-paper);
+}
+
+body[data-zl="life"] .md-header {
+  background: var(--zl-paper) !important;
+  color: var(--zl-ink) !important;
+}
+
+body[data-zl="life"] .md-header__title {
+  font-family: var(--zl-sans);
+}
+
+body[data-zl="life"] .md-tabs,
+body[data-zl="life"] .md-header [data-md-component="palette"] {
+  display: none;
+}
+
+body[data-zl="life"] .md-main {
+  background: transparent;
+}
+
+body[data-zl="life"] .md-content__inner {
+  max-width: 50rem;
+  padding-inline: clamp(0.75rem, 3vw, 1.5rem);
+}
+
+body[data-zl="life"] .md-typeset {
+  color: var(--zl-ink-soft);
+  line-height: 1.8;
+}
+
+body[data-zl="life"] .md-typeset :is(h1, h2, h3) {
+  font-family: var(--zl-sans);
+  color: var(--zl-ink);
+}
+
+body[data-zl="life"] .md-typeset > h2 {
+  margin-top: 2.25rem;
+  font-size: 1.2rem;
+  letter-spacing: -0.015em;
+}
+
+body[data-zl="life"] .md-typeset li::marker {
+  color: var(--zl-cobalt);
+}
+
+body[data-zl="life"] .md-typeset a:hover {
+  color: var(--zl-vermilion);
+}
+
+body[data-zl="life"] .md-footer {
+  background: var(--zl-paper);
+}
+
+/* 页首 */
+.zl-life-hero {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  margin: 0.4rem 0 1.25rem;
+  padding: clamp(1.15rem, 4vw, 2.75rem);
+  border: 1px solid var(--zl-line);
+  border-radius: 1.1rem;
+  background:
+    radial-gradient(ellipse at 100% 0%, #392543 0%, transparent 66%),
+    radial-gradient(ellipse at 0% 110%, #19363d 0%, transparent 62%),
+    var(--zl-paper-2);
+}
+
+.zl-life-hero::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  background-image:
+    linear-gradient(to right, #f6f4ff12 1px, transparent 1px),
+    linear-gradient(to bottom, #f6f4ff12 1px, transparent 1px);
+  background-size: 26px 26px;
+  mask-image: linear-gradient(to left, black, transparent 80%);
+  pointer-events: none;
+}
+
+body[data-zl="life"] .md-typeset .zl-life-title {
+  margin: 0;
+  font-size: clamp(1.85rem, 6vw, 4.15rem);
+  font-weight: 750;
+  line-height: 1.12;
+  letter-spacing: -0.05em;
+}
+
+body[data-zl="life"] .md-typeset .zl-life-title:lang(zh) {
+  letter-spacing: -0.025em;
+}
+
+.md-typeset .zl-life-lead {
+  max-width: 36rem;
+  margin: 0.65rem 0 0;
+  color: var(--zl-ink-soft);
+}
+
+/* 生活区栏目入口 */
+.zl-life-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.9rem;
+  margin: 1.25rem 0 2.25rem;
+}
+
+body[data-zl="life"] .md-typeset .zl-life-card {
+  --zl-life-card-accent: var(--zl-cobalt);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.85rem;
+  min-block-size: 6.5rem;
+  padding: 1.15rem 1.25rem;
+  border: 1px solid var(--zl-line);
+  border-radius: var(--zl-radius);
+  background: color-mix(in srgb, var(--zl-life-card-accent) 6%, var(--zl-paper-2));
+  color: var(--zl-ink);
+  transition: border-color 0.18s ease, background 0.18s ease;
+}
+
+body[data-zl="life"] .md-typeset .zl-life-card:nth-child(2) {
+  --zl-life-card-accent: var(--zl-vermilion);
+}
+
+body[data-zl="life"] .md-typeset .zl-life-card:nth-child(3) {
+  --zl-life-card-accent: #b9c4ff;
+}
+
+body[data-zl="life"] .md-typeset .zl-life-card:is(:hover, :focus-visible) {
+  border-color: var(--zl-life-card-accent);
+  background: color-mix(in srgb, var(--zl-life-card-accent) 12%, var(--zl-paper-2));
+}
+
+.md-typeset .zl-life-card__title {
+  margin: 0 0 0.28rem;
+  padding: 0;
+  border: 0;
+  font-size: 1.25rem;
+  line-height: 1.25;
+}
+
+.md-typeset .zl-life-card__text {
+  margin: 0;
+  font-size: 0.77rem;
+  color: var(--zl-ink-soft);
+}
+
+.zl-life-card__arrow {
+  font-size: 1.15rem;
+  color: var(--zl-life-card-accent);
+}
+
+/* 作品清单 */
+.zl-life-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin: 0.9rem 0 1.8rem;
+}
+
+.zl-life-tag {
+  padding: 0.25rem 0.68rem;
+  border: 1px solid var(--zl-line);
+  border-radius: 0.45rem;
+  background: var(--zl-paper-2);
+  font-size: 0.73rem;
+  color: var(--zl-ink-soft);
+}
+
+.md-typeset .zl-life-back {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1rem;
+  margin: 0 0 0.9rem;
+  font-size: 0.76rem;
+}
+
+@media screen and (max-width: 44.9375em) {
+  .zl-life-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0.65rem;
+  }
+
+  body[data-zl="life"] .md-typeset .zl-life-card {
+    min-block-size: 0;
+    padding: 0.85rem 1rem;
+  }
+}

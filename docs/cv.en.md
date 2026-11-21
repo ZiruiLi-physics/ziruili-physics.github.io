@@ -1,49 +1,61 @@
+---
+description: Curriculum vitae of Zirui Li — research interests, education, experience and contact.
+---
+
 # Curriculum Vitae
 
-## Research Interests
+<p class="zl-meta">Last updated: 2026-10</p>
 
-1. **Theoretical Physics**: My interests are primarily in condensed matter and statistical physics, focusing on theory and numerical computation. I have also explored some topics in high-energy physics.
-    1. Condensed Matter & Statistical Physics Theory: <br>Open Quantum Many-Body Systems, <br>Localization and Thermalization (MBL, ETH, Time Crystal), <br>Disordered Solids (Granular and glassy systems), <br>Floquet systems, <br>Tensor Network, ...
-    2. High-Energy & Gravitational Theory: <br>Lattice QCD, <br>Quantum Chaos (SYK model, Black Holes), ...
-    3. Others: <br>Fundamental Theory of Quantum Mechanics, ...
-    4. **Now I'm working on:** 
-    <br>Mainly: Geometry and topological defects in amorphous solids
-    <br>Others: Non-equilibrium quantum many-body dynamics, Classical stochastic thermodynamics in disordered solids, ...
-2. Computer: Cellular Automaton, Neural Network
-3. ACG > Anime, Vocaloid, Vtuber
+## Research interests
+
+- **Theoretical physics**: mostly condensed matter and statistical physics, with theory and numerical computation; some reading in high-energy theory.
+    - Condensed matter & statistical physics: open quantum many-body systems, localization and thermalization (MBL, ETH, time crystals), disordered solids (granular and glassy systems), Floquet systems, tensor networks.
+    - High-energy & gravitational theory: lattice QCD, quantum chaos (SYK model, black holes).
+    - Other: fundamental aspects of quantum mechanics.
+    - **Currently working on**: geometry and topological defects in amorphous solids; non-equilibrium quantum many-body dynamics; classical stochastic thermodynamics in disordered solids.
+- **Computing**: cellular automata, neural networks.
+- **ACG**: anime, Vocaloid, VTubers.
 
 ## Education
 
-1. 2019-2022 High School: <br>Tianjin Xinhua High School
-2. 2022-2026 B.S.: <br>Beihang University > School of Physics > Department of Nuclear Science and Technology
-   Thesis: Effects of monopole screening in disordered solids [[CN](../physics/note/downloads/本科毕业论文（中文）主体.pdf)] [[EN](../physics/note/downloads/本科毕业论文（英文）主体.pdf)]
-3. 2026-2031 (expected) Ph.D.: <br>Shanghai Jiao Tong University > School of Physics and Astronomy & Wilczek Quantum Center (Theoretical Physics)
+- **2019–2022 High school**: Tianjin Xinhua High School
+- **2022–2026 B.Sc.**: Beihang University → School of Physics → Department of Nuclear Science and Technology
+    - Thesis: *Effects of monopole screening in disordered solids*
+      [Chinese](/notes/downloads/本科毕业论文（中文）主体.pdf) ·
+      [English](/notes/downloads/本科毕业论文（英文）主体.pdf)
+- **2026–2031 Ph.D. (in progress)**: Shanghai Jiao Tong University → School of Physics and Astronomy & Wilczek Quantum Center (theoretical physics)
 
-## Work Experience
+## Work experience
 
-1. 2025.3-2025.6: Teaching Assistant for *Advanced Mathematical Analysis* at Beihang University
-2. 2025.7-2025.8: Research intern at China Jinping Underground Laboratory (CJPL), JUNA collaboration
+- **Mar–Jun 2025**: Teaching assistant, *Advanced Mathematical Analysis*, Beihang University
+- **Jul–Aug 2025**: China Jinping Underground Laboratory, JUNA collaboration
 
-## Awards & Honors
+## Awards & honours
 
-1. Provincial Second Prize, National Physics Olympiad for High School Students
-2. Beijing Second Prize, Collegiate Mathematical Contest in Modeling
-3. Municipal-level Innovation & Entrepreneurship Training Program: Symmetries and conservation laws of 2D nonlinear PDEs (participant) — Excellent Completion
-4. Performance Certificate, Beihang Aesthetic Education Center "Ru Yuan" Exhibition
+- Provincial second prize, National Physics Olympiad for High School Students
+- Beijing second prize, Collegiate Mathematical Contest in Modeling
+- Municipal Innovation & Entrepreneurship Training Program: symmetries and conservation laws of 2D nonlinear PDEs (participant), rated excellent
+- Performance certificate, *Ru Yuan* exhibition, Beihang Aesthetic Education Center
 
-## Representative Publications
+## Publications
+
+No papers or preprints yet. They will appear here and on the [research page](research.md).
 
 ## Other
 
-1. 2024.10-now: Organizer, *Beihang Physics Review Special Issue*
-2. [Informal School on QCD and Heavy Flavor Physics](https://indico-tdli.sjtu.edu.cn/event/4091/)
+- **Since Oct 2024**: organiser, *Beihang Physics Review* special issue
+- [Informal School on QCD and Heavy Flavor Physics](https://indico-tdli.sjtu.edu.cn/event/4091/)
 
 ## Links
 
-[Personal Page](https://ziruili-physics.github.io)<br>
-[BiliBili | 喵喵拳大师兄](https://space.bilibili.com/228138236)<br>
-[GitHub | Catmaster](https://github.com/ZiruiLi-physics)
+- [Personal site](https://ziruili-physics.github.io/)
+- [Bilibili | 喵喵拳大师兄](https://space.bilibili.com/228138236)
+- [GitHub | Catmaster](https://github.com/ZiruiLi-physics)
 
 ## Contact
 
-Email: ziruili6039@qq.com
+<div class="zl-contact">
+  <p><span class="zl-contact__label">Email</span><span class="zl-email" data-u="122,105,114,117,105,108,105,54,48,51,57" data-d="103,109,97,105,108,46,99,111,109">Enable JavaScript to show the address, or reach me on GitHub.</span></p>
+  <p><span class="zl-contact__label">GitHub</span><a href="https://github.com/ZiruiLi-physics">ZiruiLi-physics</a></p>
+  <p><span class="zl-contact__label">Bilibili</span><a href="https://space.bilibili.com/228138236">喵喵拳大师兄</a></p>
+</div>

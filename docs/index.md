@@ -1,25 +1,46 @@
-# 欢迎来到我的个人主页
-# **你好！ Hello!** 
-
-## 我是谁？
-如你所见, 我只是一个做这个网站的普通人, 任何对自己的直接介绍都不可避免地沦为标签化的扁平描述, 而我没有"认识自己"的智慧. 
-所以, 如果对我感兴趣, 你可以自行打开这些目录浏览, 那时你就会对我形成一套独特的印象了.
-
-页面下方是我的[GitHub主页](https://github.com/ZiruiLi-physics)和[BiliBili主页](https://space.bilibili.com/228138236). 我的常用邮箱是ziruili6039@qq.com. 我很欢迎你带着话题来聊天, 也乐于解答你的问题. 
-另外如果你对我足够熟悉, 你也许能在知乎上找到我的账号, 这里我就保留一些神秘感吧.
-
-## 研究速览
-
-我是**上海交通大学 Wilczek 量子中心 (WQC)** 的理论物理直博生。当前主要研究方向为**非晶固体中的几何与拓扑缺陷**，融合统计物理、凝聚态理论和数值模拟方法。
-
-其他活跃兴趣包括非平衡量子多体动力学、无序系统中的经典随机热力学、以及量子热化（MBL、ETH、Floquet 系统、时间晶体）。
-
-## 我为什么要做这个网站
-我最初只是为了把我本科期间的物理学习(特别是在**北航物理评论特刊**中我的讲稿)记录下来, 并把我整理的资料分享给其他人. 
-不过有了我自己的网站, 多写点其他的似乎也不错? 于是就有了如此多的条目.
-
-## 祝你身体健康！
-
+---
+description: 李梓瑞，上海交通大学 Wilczek 量子中心理论物理博士生。研究非晶固体中的几何缺陷与弹性响应。
+hide:
+  - toc
 ---
 
-Latest update: 2026.6.2
+<section class="zl-hero">
+  <span class="zl-hero__glow" aria-hidden="true"></span>
+  <h1 class="zl-hero__title">李梓瑞<span>Zirui Li</span></h1>
+  <p class="zl-hero__role">理论物理博士生 · 上海交通大学 Wilczek 量子中心</p>
+  <p class="zl-hero__lead">我研究非晶固体中的几何与拓扑缺陷如何影响弹性响应。</p>
+  <div class="zl-actions">
+    <a class="zl-btn zl-btn--primary" href="research/">研究方向</a>
+    <a class="zl-btn" href="notes/">笔记与代码</a>
+    <a class="zl-btn" href="cv/">简历</a>
+  </div>
+</section>
+
+## 精选资料
+
+<div class="zl-cards">
+  <a class="zl-card" href="research/#undergraduate-thesis">
+    <span class="zl-card__title">无序固体中的单极屏蔽</span>
+    <span class="zl-card__text">本科毕业论文 · 中英文 PDF</span>
+  </a>
+  <a class="zl-card" href="/notes/downloads/Lindblad.pdf">
+    <span class="zl-card__title">Lindblad 方程</span>
+    <span class="zl-card__text">开放量子系统主方程的推导与常见近似 · PDF</span>
+  </a>
+  <a class="zl-card" href="notes/code/">
+    <span class="zl-card__title">PXP 模型的数值模拟</span>
+    <span class="zl-card__text">精确对角化与张量网络时间演化 · Python</span>
+  </a>
+</div>
+
+## 关于我
+
+我本科就读于北京航空航天大学物理学院，2026 年进入 Wilczek 量子中心。除了无序固体，我也关注非平衡量子多体动力学。
+
+[读我的物理随笔](blog/index.md)
+
+## 最近更新
+
+{{LATEST_UPDATES}}
+
+<p class="zl-signoff">祝你身体健康！</p>

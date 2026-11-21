@@ -1,4 +1,16 @@
 site/
+/mkdocs_*/
 *.jar
 __pycache__/
 *.pyc
+
+# 本地私有副本（下架资料、旧页面备份、编辑日志），绝不提交
+_local/
+
+# 仅在本地保留的简历原件与归档作业
+/docs/cv/
+/docs/archive/downloads/U3/homework_1_2_3.pdf
+/docs/archive/downloads/U3/pxp_model.pdf
+
+# 本地 Python 虚拟环境
+.venv/

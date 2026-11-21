@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "yzhang.markdown-all-in-one",
+    "redhat.vscode-yaml",
+    "ms-python.python",
+    "eamodio.gitlens"
+  ]
+}

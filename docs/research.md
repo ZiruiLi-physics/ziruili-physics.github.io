@@ -1,21 +1,37 @@
-# 研究兴趣
+---
+description: 用统计物理和数值方法研究无序固体与非平衡量子多体系统。
+hide:
+  - navigation
+---
 
-## 主要活跃方向
+# 研究
 
-- **非晶固体中的几何与拓扑缺陷** — 利用几何和拓扑方法理解无序固体和玻璃的塑性、弹性及结构性质
-- **非平衡量子多体动力学** — 驱动量子系统远离平衡态的动力学、弛豫和热化现象
-- **无序固体中的经典随机热力学** — 非晶和玻璃系统中的随机动力学、记忆效应与能量景观
+{{RESEARCH_UMBRELLA}}
 
-## 其他方向
+## 近期工作
 
-- 多体局域化（MBL）与本征态热化假说（ETH）
-- Floquet 系统与离散时间晶体
-- 张量网络方法（DMRG、精确对角化）
-- 开放量子多体系统与 Lindblad 动力学
-- 非平衡统计物理
+- 非晶固体的几何缺陷与弹性响应
+- DMRG、精确对角化与开放量子系统代码整理
 
-## 更广泛的兴趣
+## 研究主题
 
-- 量子混沌（SYK 模型、黑洞信息）
-- 量子力学基础理论
-- 元胞自动机与神经网络
+{{RESEARCH_THEMES}}
+
+## 本科毕业论文 { #undergraduate-thesis }
+
+本科毕业论文研究无序固体中的单极屏蔽效应（monopole screening）。
+
+- [中文版](/notes/downloads/本科毕业论文（中文）主体.pdf)
+- [English version](/notes/downloads/本科毕业论文（英文）主体.pdf)
+
+## 报告与讲义
+
+- [Landau 二级相变理论](/notes/downloads/landau相变理论-李梓瑞.pdf)
+- [李–杨相变](/notes/downloads/yang-lee.pdf)
+- [多体局域化基础](/notes/downloads/MBL_ETH_1.pdf)
+- [开放量子多体系统的数值模拟方法](/notes/downloads/OQMS.pdf)
+- [离散时间晶体](/notes/downloads/DTC.pdf)
+
+更多资料见[讲义与 Slides](notes/slides.md)。
+
+{{PUBLICATIONS}}
